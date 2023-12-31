@@ -11,6 +11,8 @@
 		A847968B2B40F33A0035B227 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A847968A2B40F33A0035B227 /* ContentView.swift */; };
 		A847968D2B40F33C0035B227 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A847968C2B40F33C0035B227 /* Assets.xcassets */; };
 		A84796912B40F33C0035B227 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A84796902B40F33C0035B227 /* Preview Assets.xcassets */; };
+		A84796982B40F9A20035B227 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84796972B40F9A20035B227 /* SoundPlayer.swift */; };
+		A847969A2B4101390035B227 /* BackgroundModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84796992B4101390035B227 /* BackgroundModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		A847968C2B40F33C0035B227 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A847968E2B40F33C0035B227 /* Sound.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sound.entitlements; sourceTree = "<group>"; };
 		A84796902B40F33C0035B227 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A84796972B40F9A20035B227 /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		A84796992B4101390035B227 /* BackgroundModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				A84796882B40F33A0035B227 /* SoundApp.swift */,
 				A847968A2B40F33A0035B227 /* ContentView.swift */,
+				A84796992B4101390035B227 /* BackgroundModifier.swift */,
+				A84796972B40F9A20035B227 /* SoundPlayer.swift */,
 				A847968C2B40F33C0035B227 /* Assets.xcassets */,
 				A847968E2B40F33C0035B227 /* Sound.entitlements */,
 				A847968F2B40F33C0035B227 /* Preview Content */,
@@ -140,6 +146,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A847968B2B40F33A0035B227 /* ContentView.swift in Sources */,
+				A84796982B40F9A20035B227 /* SoundPlayer.swift in Sources */,
+				A847969A2B4101390035B227 /* BackgroundModifier.swift in Sources */,
 				A84796892B40F33A0035B227 /* SoundApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
